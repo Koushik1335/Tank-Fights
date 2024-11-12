@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const initialRedPosition = { x: 50, y: 50 };
     const initialBluePosition = { x: window.innerWidth - 150, y: 50 };
 
-    const redPlayer = { ...initialRedPosition, speed: 5, health: 5, velocityY: 0, shotsFired: 0, canShoot: true, points: 0 };
-    const bluePlayer = { ...initialBluePosition, speed: 5, health: 5, velocityY: 0, shotsFired: 0, canShoot: true, points: 0 };
+    const redPlayer = { ...initialRedPosition, speed: 8, health: 5, velocityY: 0, shotsFired: 0, canShoot: true, points: 0 };
+    const bluePlayer = { ...initialBluePosition, speed: 8, health: 5, velocityY: 0, shotsFired: 0, canShoot: true, points: 0 };
     const balls = [];
     let gameActive = true;
 
