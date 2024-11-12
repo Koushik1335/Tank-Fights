@@ -1,0 +1,40 @@
+body {
+  background-image: radial-gradient(#f22 0%, #520808 80%);
+  overflow: hidden;
+  width: 100vh;
+  height: 100vb;
+  position: relative;
+  margin: 0px auto;}
+    
+
+button {
+    height: 90px;
+    width: 250px;
+    font-size: x-large;
+    background-color: red;
+    outline: 0.04in;
+    outline-color: black;
+    outline-style: solid;
+    margin-top: 400px;
+    margin-left: 350px;
+
+}
+
+#Play {
+  display: flex;
+  flex-direction: column;
+
+}
+
+h1{
+  position: absolute;
+  color: black;
+  font-size: 64px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  overflow-wrap: break-word;
+  color: #000;
+  top: 80px;
+  text-align: center;
+  left: 100px;
+  right: 100px;
+}

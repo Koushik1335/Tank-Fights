@@ -1,0 +1,80 @@
+
+
+
+    #back{
+        position: absolute;
+        margin-top: 30px;
+        margin-left: -400px;
+        height: 50px;
+        width: 100px;
+        background-color: #f22;
+       }
+
+
+       body {
+        background-image: radial-gradient(#f22 0%, #520808 80%);
+        overflow: hidden;
+        width: 100vh;
+        height: 100vb;
+        position: relative;
+        margin: 0px auto;
+    }
+
+
+    h1{
+        position: absolute;
+        color: black;
+        font-size: 64px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        overflow-wrap: break-word;
+        color: #000;
+        top: 80px;
+        text-align: center;
+        left: 100px;
+        right: 100px;
+    }
+
+    #level1{
+        width: 300px;
+        height: 200px;
+        
+        
+    }
+
+
+    #level2{
+        width: 300px;
+        height: 200px;
+
+    }
+
+
+    #level3{
+        width: 300px;
+        height: 200px;
+
+    }
+
+button{
+    margin-top: 300px;
+    margin-left: 100px;
+    margin-right: 30px;
+    height: 220px;
+
+}
+
+#lvl1button{
+    background-color: #f22;
+    
+}
+
+#lvl2button{
+    margin-left: 100px;
+    background-color: #f22;
+}
+
+#lvl3button{
+    margin-top: 100px;
+    background-color: #f22;
+    margin-left: 310px;
+}   

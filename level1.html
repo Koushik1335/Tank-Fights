@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tank Game</title>
+    <link rel="stylesheet" href="level1.css">
+    <script src="level1.js" defer></script>
+</head>
+<body>
+    <h1>Night Lights</h1>
+    <div id="floor"></div>
+    <img src="redtank.png" alt="red tank" id="red">
+    <img src="bluetank.png" alt="blue tank" id="blue">
+
+    <audio id="audioPlayer" src="gameaudio.mp3"></audio>
+    <img src="playbutton.png" id="playButton" >
+    <img src="stopbutton.png" id="pauseButton">
+
+    <div id="scoreBoard">
+        <span id="redScore">Red Tank: 0</span> | <span id="blueScore">Blue Tank: 0</span>
+    </div>
+    
+
+    <script>
+        const audioPlayer = document.getElementById('audioPlayer');
+        const playButton = document.getElementById('playButton');
+        const pauseButton = document.getElementById('pauseButton');
+    
+        // Play button event
+        playButton.addEventListener('click', () => {
+            audioPlayer.play();
+        });
+    
+        // Pause button event
+        pauseButton.addEventListener('click', () => {
+            audioPlayer.pause();
+        });
+    </script>
+    
+    <!-- Hidden Button that appears when a tank dies -->
+     <a href="maps.html">
+    <button id="backButton" style="display: none;">Back</button>
+    </a>
+</body>
+</html>

@@ -1,0 +1,51 @@
+body {
+    background-image: radial-gradient(#f22 0%, #520808 80%);
+    overflow: hidden;
+    width: 100vh;
+    height: 100vb;
+    position: relative;
+    margin: 0px auto;}
+
+   
+
+     p {
+        text-align: center;
+        position: relative;
+        padding: 150px;
+        font-size: xxx-large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+     }
+
+   #start{
+    position: absolute;
+    margin-left: 305px;
+    margin-top: -20px;
+    height: 300px;
+        width: 350px;
+        font-size: x-large;
+        background-color: red;
+        outline: 0.04in;
+        outline-color: black;
+        outline-style: solid; 
+        position: absolute;
+
+   }
+
+   #playimg{
+    position: absolute;
+    z-index: 100;
+    margin-left: 350px;
+    margin-top: 25px;
+    height: 200px;
+
+   }
+
+   #back{
+    position: absolute;
+    margin-top: -390px;
+    margin-left: -390px;
+    height: 50px;
+    width: 100px;
+    background-color: #f22;
+   }
